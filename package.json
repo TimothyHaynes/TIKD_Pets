@@ -1,0 +1,23 @@
+{
+  "name": "tikd_pets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyHaynes/TIKD_Pets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimothyHaynes/TIKD_Pets/issues"
+  },
+  "homepage": "https://github.com/TimothyHaynes/TIKD_Pets#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 
-<h2>Pet Adoption</h2>
+<h2>Flight Search</h2>
 
 <p>
-  Each pet has basic information about who to contact, the type of animal, if they are well-behaved around children and other animals, as well as the location. Hopefully, the pet also has a description, picture, name, and the other stuff they deserve.
+  Each flight has basic information including some of the information you gave us. This search will help you see how many flights are available at any given time for any origin/destinations that are available.
 </p>
 
-<!-- <pet-profile ng-repeat=""></pet-profile> -->
+<div class="container">
+  <pet-profile ng-repeat="#" >
+    <div class="col-xs-12">
+      <h2>{{Solutions}}</h2>
+      <h3>{{Origin}} {{Destination}}</h3>
+      <h4>{{Date}}</h4>
+      <p>
+        {{passengers}}
+        {{refundable}}
+      </p>
+    </div>
+  </pet-profile>
+</div>

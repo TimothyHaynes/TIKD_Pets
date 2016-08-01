@@ -1,4 +1,4 @@
-var app = angular.module('badgeApp', ['ngRoute']);
+var app = angular.module('badge-app', ['ngRoute']);
 
 app.config(function($routeProvider) {
 	$routeProvider

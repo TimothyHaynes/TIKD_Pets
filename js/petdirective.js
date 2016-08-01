@@ -1,4 +1,4 @@
-var app= angular.module("badgeApp");
+var app= angular.module("badge-app");
 
 app.directive('doneWith', function() {
 	return {

@@ -1,0 +1,11 @@
+<div class="row" ng-controller="ajaxCtrl1">
+    <!-- these are placeholders for the angular expressions change them to whatever you need. Also maybe this can be a featured flight?-->
+    <div class="col-xs-3" ng-repeat="member in team">
+    	<h2>{{member.name}}</h2>
+		<div ng-repeat="badge in member.badges">
+    		<img src="{{badge.icon_url}}" alt="{{badge.name}}">
+    		<p>{{badge.name}}</p>
+    	</div>
+    	<p>Total Points: {{member.points}}</p>
+    </div>
+ </div>

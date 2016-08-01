@@ -1,4 +1,4 @@
-var app= angular.module("badgeApp");
+var app= angular.module("badge-app");
 
 app.controller("badgeCtrl", function($scope){
 $scope.user = [ {

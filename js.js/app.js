@@ -1,1 +1,1 @@
-var app= angular. module ('petApp', []);
+var app= angular. module ('badgeApp', []);

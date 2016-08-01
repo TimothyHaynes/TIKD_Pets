@@ -1,6 +1,25 @@
-var app= angular.module("petApp");
+var app= angular.module("badgeApp");
 
-app.controller("animalCtrl", function($scope){
-$scope
+app.controller("ajaxCtrl1", function($http,$scope){
+$http ( {
+	method: 'GET',
+	url: 'https://teamtreehouse.com/katiegolicz.json'
+}).then (function successCallback(response) {
+	$scope.badges=response.data.badges;
+},
+function errorCallback(response) {
+	console.log(response);
+});
+});
 
+app.controller("ajaxCtrl2", function($http, $scope) {
+	$http ({
+		method: 'GET',
+		url: 'https://teamtreehouse.com/davebrunetti.json'
+	}).then (function successCallback(response) {
+		$scope.badges=response.data.badges;
+	},
+	function errorCallback(response) {
+	console.log(response);
+});
 });

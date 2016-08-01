@@ -11,7 +11,17 @@
 </div>
 
 <feat-pet>
-  <div class="col-xs-12">
+  <div class="col-xs-12" ng-controller="ajaxCtrl1">
+    <!-- these are placeholders for the angular expressions change them to whatever you need. Also maybe this can be a featured flight?-->
+    <h2>{{Solutions}}</h2>
+    <h3>{{Origin}} {{Destination}}</h3>
+    <h4>{{Date}}</h4>
+    <p>
+      {{passengers}}
+      {{refundable}}
+    </p>
+  </div>
+  <div class="col-xs-12" ng-controller="ajaxCtrl2">
     <!-- these are placeholders for the angular expressions change them to whatever you need. Also maybe this can be a featured flight?-->
     <h2>{{Solutions}}</h2>
     <h3>{{Origin}} {{Destination}}</h3>

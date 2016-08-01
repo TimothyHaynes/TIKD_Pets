@@ -8,6 +8,6 @@ app.config(function($routeProvider) {
 	})
 	.when('/view2', {
 		controller: "ajaxCtrl2",
-		templateUrl: "partials/view1.html"
+		templateUrl: "partials/view2.html"
 	});
 });

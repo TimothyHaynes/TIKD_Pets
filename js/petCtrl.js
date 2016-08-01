@@ -2,17 +2,17 @@ var app= angular.module("badgeApp");
 
 app.controller("badgeCtrl", function($scope){
 $scope.user = [ {
-	name: "Katie Golicz"
-	badges:
-	date earned:
+	name: "Katie Golicz",
+	badges:"",
+	dateEarned:"",
 	courses:[ {
-	title:
-	badge count:
+	title:"",
+	badgeCount:""
 	}],
-	date earned:
+	dateEarned:"",
 	image: {
-		path:
-		alt:
+		path:"",
+		alt:""
 	}
 	
 	
@@ -23,8 +23,8 @@ $scope.user = [ {
 	
 	
 	}]
-}
-
 });
+
+
 
 

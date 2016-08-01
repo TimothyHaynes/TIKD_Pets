@@ -6,6 +6,7 @@ $http ( {
 	url: 'https://teamtreehouse.com/katiegolicz.json'
 }).then (function successCallback(response) {
 	$scope.badges=response.data.badges;
+	console.log($scope.badges);
 },
 function errorCallback(response) {
 	console.log(response);
